@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: #b6072a;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 16px;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid pink;
+}
+
+/* Home Section */
+#home{
+    background-image: url("images/fauzan.jpeg");
+    background-position: center;
+    background-size: auto;
+    height: 650px;
+    width: 1350px;
+    margin: auto;
+}
+html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p.b {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+section h1 {
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+}
+section h2 {
+    text-align: center;
+    padding: 5px 0;
+    color: red;
+}
+section h3 {
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+}
+section h4 {
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
+section p {
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
+* {
+   box-sizing: border-box;
+}
+.bg-image {
+/* The image used */
+background-image: url("");
+  
+/* Add the blur effect */
+   filter: blur(8px);
+   -webkit-filter: blur(8px);
+   
+/* Full height */
+   height: 100%; 
+   
+/* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+ 
+/* Position text in the middle of the page/image */
+.bg-text {
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+   color: white;
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 50%;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* About Me Section */
+section{
+    padding: 100px 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 500px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+}
+#intro h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+table {
+    table-layout: auto;
+    width: auto;
+    /*border-spacing: 40px;*/
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid none;
+    border-collapse:separate;
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+p.thick {
+    font-weight: bold;
+}
+p.a {
+    word-spacing: 0px;
+    word-break: break-all;
+}  
+p {
+    color: rgb(255, 255, 255);
+    font-family: courier;
+    font-size: 100%;
+}
+
+
+/* Interest Section */
+#interest{
+    display: flex;
+    flex-direction: column;
+    font-size: inherit;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+ol.c {
+    list-style-type: upper-roman;
+    text-align: center;
+}
+ul.b {
+    list-style-type: square;
+    text-align: center;
+}
+
+/* Education Section */
+#education{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    background-color: grey;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .7s;
+}
+.box:hover{
+    background-position: left-bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+}
+
+/* Family Section */
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+/* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Gallery Section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input{
+    display: none;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0px;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+.top-content{
+    background-color: rgb(221, 221, 221);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+.photo-gallery h3{
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    line-height: 60px;
+    padding: 0 50px;
+    color: white;
+}
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+    transition: color .5s;
+}
+label:hover{
+    color: black;
+}
+.photo-gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.pic{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgrey;
+    cursor: pointer;
+    transition: .5s;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+.pic::before{
+    content: "My Gallery";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+    z-index: 1;
+}
+.pic::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 0;
+    background-color: rgba(0,0,0,0.4);
+    transition: .3s;
+}
+.pic:hover::after{
+    height: 100%;
+}
+.pic:hover::before{
+    margin-top: 0;
+    opacity: 1;
+}
+#check1:checked ~ .container .photo-gallery .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+#check2:checked ~ .container .photo-gallery .family{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+#check2:checked ~ .container .photo-gallery .place,
+#check2:checked ~ .container .photo-gallery .random{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
+}
+#check3:checked ~ .container .photo-gallery .place{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+#check3:checked ~ .container .photo-gallery .family,
+#check3:checked ~ .container .photo-gallery .random{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s; 
+}
+#check4:checked ~ .container .photo-gallery .place{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+#check4:checked ~ .container .photo-gallery .family,
+#check4:checked ~ .container .photo-gallery .place{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s; 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: auto;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-content {
+    display: flex;
+}
+.main-content .box{
+    flex-basis: content;
+    padding: 10px 20px;
+}
